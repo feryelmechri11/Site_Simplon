@@ -1,3 +1,18 @@
+.contact_global{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 150px;
+  
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*margin-right: 350px;*/
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -82,7 +97,8 @@ form {
    align-items: flex-start;
     background:white ;
     color: rgb(104, 15, 15);
-    border:rgb(206, 0, 51) solid 1px;
+    /*border:rgb(206, 0, 51) solid 1px;*/
+    border:rgb(209, 203, 204) solid 1px;
     position:relative;
     margin-top:100px;
     padding-top: 50px;
@@ -93,13 +109,14 @@ form {
     font-size: 20px;
     /*padding-bottom: 70px;*/
    /* height: 700px;*/
+   box-shadow: 5px 5px 6px #DDD;
 
 }
 
 input {
  /* background-color: rgb(245, 235, 235);*/
    border: none;
-  border-bottom:rgb(206, 0, 51) solid 1px; 
+  border-bottom:rgb(206, 0, 51) solid 2px; 
   /*color: white;*/
   padding: 8px 10px;
   /*border: none;*/
@@ -111,7 +128,7 @@ input {
 }
 .custom-select{
   border:none;
-  border-bottom:rgb(206, 0, 51) solid 1px;
+  border-bottom:rgb(206, 0, 51) solid 2px;
   width: 450px; 
   height: 25px;
   margin-bottom: 20px;
@@ -163,4 +180,48 @@ label{
    
     width:100%;
     position:absolute;
+}
+.fab{
+  color: #bb0000;
+}
+.contact2{
+  
+  /*border: solid 2px #bb0000; */
+  /*height: 550px;*/
+  margin-top:170px;
+  width: 450px;
+  box-shadow: 5px 5px 6px #DDD;
+  margin-left:50px;
+  background-color:rgb(206, 0, 51);
+}
+img{
+  margin-top: 50px;
+  width:20px;
+  margin-right: 10px ;
+}
+li{
+  /*margin-right: 30px ; */
+  color: #DDD;
+  text-align: left;
+}
+ul{
+  list-style-type: none;
+}
+h6{
+  color:black;
+  margin-top:10px;
+ align-items: center;
+}
+p{
+  color: gray;
+  font-size: 10px;
+  text-align: left;
+  
+}
+h4{
+  color: #DDD;
+}
+
+h3{
+  color:white;
 }

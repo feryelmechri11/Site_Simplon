@@ -3,9 +3,9 @@ import './App.css';
 import Contact_form  from  './contact/contact'
 import './contact/contact.css';
 import Footer from './footer/footer'
+import './footer/footer.css';
 import SocialFollow from "./SocialFollow/SocialFollow"
-import { Map, GoogleApiWrapper } from 'google-maps-react';
-//import Map  from  './map/map'
+import Map  from  './map/map'
 
 
 function App() {
@@ -13,8 +13,7 @@ function App() {
     <div className="App">
 
      <Contact_form />
-     <SocialFollow />
-     <Footer />
+    <Footer />
     
 
 
