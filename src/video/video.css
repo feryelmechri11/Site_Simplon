@@ -1,0 +1,10 @@
+.myvideo {
+    display: block;
+    box-shadow: 2px 2px 8px 8px  black;
+    margin: 10%  25%
+}
+@media only screen and (max-width: 768px){
+    .myvideo{
+        display: none;
+    }
+}

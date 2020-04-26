@@ -1,29 +1,29 @@
-import React from 'react';
-import './App.css';
-import Contact_form  from  './contact/contact'
-import './contact/contact.css';
-import Footer from './footer/footer'
-import SocialFollow from "./SocialFollow/SocialFollow"
-import { Map, GoogleApiWrapper } from 'google-maps-react';
-//import Map  from  './map/map'
+import React from "react";
+import "./App.css";
+import Navbar from "./navbar/navbar"
+import Player from "./video/video"
+import Pink from "./bacbox/bacbox"
+import Card from "./card/card"
+import Img_parag from "./img_parag/img_parag"
+import Valeur from "./valeur/valeur"
+
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-
-     <Contact_form />
-     <SocialFollow />
-     <Footer />
-    
-
-
-
-
-
-
-
-      </div>
+      {/* <Navbar /> */}
+      <Player />
+      <Pink />
+      <Card />
+      <Img_parag />
+      <Pink />
+      <Valeur />
+    </div>
+   
   );
 }
 

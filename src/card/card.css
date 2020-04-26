@@ -1,0 +1,37 @@
+.cards{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10%;
+}
+@media only screen and (max-width: 768px){
+    .cards{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+}
+.card{
+    background-color: white;
+    border-width: 2px;
+    border-bottom: solid  rgb(206, 20, 51); ;
+    box-shadow: 10px 10px 8px 10px rgb(0, 0, 0,0.2);
+    
+}
+
+button{
+    border-radius: 10%;
+    background-color: rgb(206, 20, 51);
+    border-color: rgb(206, 20, 51);
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-bottom: 10%;
+}
+h4{
+    color: rgb(206, 20, 51);
+}
+p{
+    padding: 5% 10%;
+    text-align: justify;
+}
