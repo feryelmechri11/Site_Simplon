@@ -8,7 +8,7 @@ function Valeur  ()  {
     return(
         <div className="items"> 
                                 <div>
-                                    <h4 className="titre">notre valeur</h4>
+                                    <h1 className="titre">notre valeur</h1>
                                 </div>
                                 <div className="contenu">
                                 <p>Nous nous appuyons sur 3 valeurs fortes, qui sont au fondement des actions que nous portons au quotidien :</p> 

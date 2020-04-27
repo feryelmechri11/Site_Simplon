@@ -6,7 +6,8 @@ import Pink from "./bacbox/bacbox"
 import Card from "./card/card"
 import Img_parag from "./img_parag/img_parag"
 import Valeur from "./valeur/valeur"
-
+import Equipe from "./equipe/equipe"
+import Footer from "./footer/footer"
 
 
 
@@ -15,13 +16,15 @@ import Valeur from "./valeur/valeur"
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <Player />
       <Pink />
       <Card />
       <Img_parag />
       <Pink />
       <Valeur />
+      <Equipe />
+      <Footer />
     </div>
    
   );

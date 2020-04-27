@@ -24,7 +24,7 @@ function img_parag () {
         <div className="img_text">
             <div className="mission">
                 {u.map (element => <div className=""> 
-                                     <h4>{element.title}</h4> 
+                                     <h1>{element.title}</h1> 
                                      <p>{element.paragraph}</p> 
                                      <button>{element.button}</button>
                                     </div> )}
@@ -35,7 +35,7 @@ function img_parag () {
                 <img className="image" src={immg1} ></img>  
             
                 {n.map (element => <div className=""> 
-                                     <h4>{element.title}</h4> 
+                                     <h1>{element.title}</h1> 
                                      <p>{element.paragraph}</p> 
                                      <button>{element.button}</button>
                                     </div> )}
