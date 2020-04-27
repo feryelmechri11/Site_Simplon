@@ -43,8 +43,7 @@ h2{
     color: white;
   }
 .social-media{
-    display: flex;
-    flex-direction: row;
+    float: left;
 }
 input {
     /* background-color: rgb(245, 235, 235);*/

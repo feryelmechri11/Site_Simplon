@@ -13,7 +13,7 @@ function App() {
     <div className="App">
 
      <Contact_form />
-    <Footer />
+     <Footer />
     
 
 

@@ -187,11 +187,11 @@ label{
 .contact2{
   
   /*border: solid 2px #bb0000; */
-  /*height: 550px;*/
+  height: 800px;
   margin-top:170px;
   width: 450px;
   box-shadow: 5px 5px 6px #DDD;
-  margin-left:50px;
+  margin-left:-150px;
   background-color:rgb(206, 0, 51);
 }
 img{
@@ -206,6 +206,7 @@ li{
 }
 ul{
   list-style-type: none;
+  margin-bottom: 100px;
 }
 h6{
   color:black;
@@ -223,5 +224,11 @@ h4{
 }
 
 h3{
-  color:white;
+  color:rgb(206, 0, 51);
+}
+.social-container{
+  margin-top: 50px;
+}
+.social-container h3{
+  color: gray;
 }
