@@ -1,0 +1,45 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    background-color: rgb(206, 20, 51);
+    padding: 30px;
+    
+}
+.tit{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    .all{
+        flex-direction: column-reverse;
+    }
+}
+.image{
+    width: 15cm;
+    height: 10cm;
+}
+.parag{
+    width: 600px;
+}
+p{text-align: justify;
+margin: auto;
+color : black;
+
+
+}
+
+.btn_qui{
+    border-radius: 10%;
+    background-color:  rgb(253, 242, 242);
+    border-color: rgb(207, 196, 198);
+    width: 100px;
+    height: 50px;
+    color:  rgb(206, 20, 51);
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}

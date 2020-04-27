@@ -1,0 +1,30 @@
+.img_text{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    background-color: white
+
+    
+}
+.mission{
+    width: 600px;
+    
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+  }
+@media only screen and (max-width: 768px){
+    .img_text{
+        flex-direction: column-reverse;
+    }
+}
+.image{
+    width: 15cm;
+    height: 10cm;
+}
+p{text-align: justify;
+margin: auto;
+
+}

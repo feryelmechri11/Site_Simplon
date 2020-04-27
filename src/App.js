@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Example from './Acceuil/Navbar'
+import Carous from './Acceuil/carousel-acc'
+import Card from './Acceuil/card/card'
+import Qui from './Acceuil/qui_somme_nous/qui_somme_nous'
+import Impact from './Acceuil/impact/impact'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    <Example/>
+    <Carous/>
+    <Card/>
+    <Qui/>
+    <Impact/>
+    
+
+   
+
+  </div>
+
+
+);
 }
 
 export default App;
