@@ -1,32 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+
 import "./App.css";
 import Navbar from "./navbar/navbar"
-import Player from "./video/video"
-import Pink from "./bacbox/bacbox"
-import Card from "./card/card"
-import Img_parag from "./img_parag/img_parag"
-import Valeur from "./valeur/valeur"
-import Equipe from "./equipe/equipe"
 import Footer from "./footer/footer"
-
-
-
-
+import Apropos from "./a propos/apropos.js"
+import PageEquipe from "./equipe/pageequipe.js"
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Player />
-      <Pink />
-      <Card />
-      <Img_parag />
-      <Pink />
-      <Valeur />
-      <Equipe />
-      <Footer />
-    </div>
-   
+  return (  
+      <div className="App">
+        <Router>
+          <Navbar/>
+          <Route path="/Team" exact component={PageEquipe} />
+          <Route path="/About" exact component={Apropos} />
+          <Footer/>
+        </Router>
+      </div>
   );
 }
 
