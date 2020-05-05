@@ -1,4 +1,16 @@
 .title {
   text-align: center;
 }
-      
+.menuSimplon {
+  background-color: white !important;
+  font-size: larger;
+  color: brown !important ; 
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.logo{
+  height: 100px;
+}

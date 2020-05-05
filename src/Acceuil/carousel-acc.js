@@ -17,7 +17,7 @@ const items = [
     key: '2'
   },
   {
-    src: './assets/images_acceuil/event2.jpg',
+    src: './assets/images_acceuil/event1.jpg',
     altText: 'Slide 3',
     caption: 'Slide 3',
     header: 'Slide 3 Header',
