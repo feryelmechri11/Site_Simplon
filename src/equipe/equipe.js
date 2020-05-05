@@ -8,7 +8,7 @@ import syrine from "./syrine.jpg"
 const tab =[
     {statue1:"DIRECTRICE GÉNÉRALE",nom1:"mouna",imgFile:"saif.jpg"},
     {statue2:" FORMATEUR",nom2:"saif"},
-    {statue3:"CHEF DE FABRIQUE",nom3:" Auguste Auguste"},
+    {statue3:"CHEF DE FABRIQUE",nom3:" Auguste"},
     
 
 ]
