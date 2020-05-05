@@ -1,0 +1,30 @@
+.photo{
+    border-radius: 50%;
+    width: 5cm;
+    box-shadow: 4px 8px 8px 2px black;
+}
+.formateur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 768px){
+    .formateur{
+        flex-direction: column-reverse;
+    }
+}
+.eqp{
+    margin-top: -10%;
+    margin-bottom: 20%;
+    box-shadow: 8px 8px 0 0 rgb(206, 20, 51);
+    width: 300px;
+    border-radius: 10%;
+    
+}
+.eqp h1{
+    color: black;
+}
+h1{
+    color: rgb(206, 20, 51);;
+}

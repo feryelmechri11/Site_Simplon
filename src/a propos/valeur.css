@@ -1,0 +1,22 @@
+.items{
+    margin: -15% 20% 20% 10%;
+    margin-left: 250px;
+}
+.titre{
+    margin-top: -8%;
+    float: left;
+}
+.contenu{
+    background-color: white;
+    border-width: 2px;
+    border-bottom: solid  rgb(206, 20, 51); ;
+    box-shadow: 10px 10px 8px 10px rgb(0, 0, 0,0.2);
+    
+}
+
+li{
+    text-align: justify;
+    padding: 1rem;
+
+
+}
