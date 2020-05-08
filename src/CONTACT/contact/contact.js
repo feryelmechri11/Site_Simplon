@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import iconphone from "./iconephone.png";
 import iconemail from "./iconemail.png";
-import maploaction from "./maplocation.png";
+import maploaction from "../map/maplocation.png";
 import Map from "../map/map";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -74,7 +74,7 @@ function Contact_form() {
         {/*<h4> Pour toute question, suggestion, projet, envie, envoyez-nous un message via le formulaire suivant : </h4>*/}
         <form>
           <h6>ECRIVEZ-NOUS</h6>
-          <p>
+          <p className="pargaraphe_contact">
             N'hésitez pas à nous contacter, notre équipe veillera à traiter
             votre demande dans les plus brefs délais.
           </p>
@@ -167,14 +167,13 @@ function Contact_form() {
         <h4>Contactez-nous</h4>
         <ul>
           <li>
-            <img src={iconphone} alt="" /> 55 077 406
+            <img className="image_contact" src={iconphone} alt="" /> 55 077 406
           </li>
           <li>
-            
-            <img src={iconemail} alt="" /> contact.tn@simplon.co
+            <img className="image_contact" src={iconemail} alt="" /> contact.tn@simplon.co
           </li>
           <li>
-            <img src={maploaction} alt="" />
+            <img className="image_contact" src={maploaction} alt="" />
             <span>Immeuble Le15, 15 Avenue de Carthage 1001 Tunis</span>
           </li>
         </ul>
